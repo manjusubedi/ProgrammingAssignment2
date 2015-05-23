@@ -37,7 +37,6 @@ cacheSolve=function(x){
         massage("getting cached inverse")
         return(inv)
     }   
-    
     data=x$get()
     ## calculate the inverse
     inv=solve(data)
